@@ -1,0 +1,16 @@
+package pkg1;
+
+public class ConstructorMain extends Construnctor2{
+	
+	ConstructorMain()
+	{
+		super();
+		System.out.println("Constructor2");
+	}
+
+	public static void main(String[] args) 
+	{
+	ConstructorMain c= new ConstructorMain();
+	c.display();
+	}
+}

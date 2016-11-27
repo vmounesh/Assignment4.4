@@ -1,0 +1,14 @@
+package pkg1;
+
+public class Constructor_chaining {
+	
+	Constructor_chaining()
+	{
+		System.out.println("Main Constructor");
+	}
+	public void display()
+	{
+		System.out.println("Displaying construnctor chain");
+	}
+
+}
